@@ -2,8 +2,9 @@ import 'dart:ffi';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'Responsive_Screen.dart';
 import 'Forgot_password.dart';
+Screen size;
 
 class wis extends StatefulWidget {
   @override
@@ -19,6 +20,7 @@ class _wisState extends State<wis> {
 
   @override
   Widget build(BuildContext context) {
+
 
     bool _obscureText = true;
     var _emailController= new TextEditingController();
@@ -48,7 +50,7 @@ class _wisState extends State<wis> {
                         alignment: Alignment.centerLeft,
                         child: Text("Login",
                           style: TextStyle(
-                              fontSize: MediaQuery.of(context).size.height*0.05,
+                              fontSize: 40.0,
                               color: Colors.grey.shade800
                           ),
                         )),
