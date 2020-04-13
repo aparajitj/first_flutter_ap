@@ -48,7 +48,7 @@ class _wisState extends State<wis> {
                         alignment: Alignment.centerLeft,
                         child: Text("Login",
                           style: TextStyle(
-                              fontSize: MediaQuery.of(context).size.height/20,
+                              fontSize: MediaQuery.of(context).size.height*0.05,
                               color: Colors.grey.shade800
                           ),
                         )),
